@@ -4,6 +4,9 @@
 /.pnp
 .pnp.js
 
+#during progress
+app/
+
 # testing
 /coverage
 

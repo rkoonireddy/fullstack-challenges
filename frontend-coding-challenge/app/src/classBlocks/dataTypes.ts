@@ -20,14 +20,14 @@
 
 
 // this is the raw input from API
-export interface ApiInputStore {
+export interface StoresDataProviderProps {
   children: React.ReactNode;
 }
 
 //this sets stores datatype
 export interface StoresDataContextType {
   storesData?: StoresData | null;
-  setStoresData?:
+  setStoresData?: //sets the dataitem to the recieved data from the api
     | React.Dispatch<React.SetStateAction<StoresData>>
     | React.Dispatch<React.SetStateAction<null>>;
 }
